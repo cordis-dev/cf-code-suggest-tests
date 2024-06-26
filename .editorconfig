@@ -1784,3 +1784,5 @@ csharp_style_var_when_type_is_apparent = false:silent
 csharp_style_var_for_built_in_types = false:silent
 csharp_space_around_binary_operators = before_and_after
 dotnet_diagnostic.SA1516.severity = warning
+dotnet_diagnostic.SA1515.severity = warning
+dotnet_diagnostic.SA1505.severity = warning
