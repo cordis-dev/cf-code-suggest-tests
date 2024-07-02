@@ -1,10 +1,22 @@
-namespace ConsoleApp6
+namespace ConsoleApp
 {
-    internal class Program
+    public class SomeNewTest
     {
-        static void Main(string[] args)
+        public void A()
         {
-            Console.WriteLine("Hello, World!");
+        }
+    }
+
+    internal class Program3
+    {
+        bool HasElements3(string[] strings1)
+        {
+            return strings1.Any();
+        }
+
+        bool HasElements4(string[] strings2)
+        {
+            return strings2.Any();
         }
     }
 }
