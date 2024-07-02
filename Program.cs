@@ -1,15 +1,22 @@
 namespace ConsoleApp
 {
-    internal class Program2
+    public class SomeNewTest
     {
-        bool HasElements(string[] strings)
+        public void A()
         {
-            return strings.Any();
+        }
+    }
+    
+    internal class Program3
+    {
+        bool HasElements3(string[] strings1)
+        {
+            return strings1.Any();
         }
 
-        bool HasElements2(string[] strings)
+        bool HasElements4(string[] strings2)
         {
-            return strings.Any();
+            return strings2.Any();
         }
     }
 }
