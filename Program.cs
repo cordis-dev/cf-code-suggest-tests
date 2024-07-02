@@ -2,14 +2,14 @@ namespace ConsoleApp
 {
     internal class Program2
     {
-        static void newMethod1(string[] args)
+        bool HasElements(string[] strings)
         {
-            var b1 = args.Any();
+            return strings.Any();
         }
 
-        static void newMethod2(string[] args)
+        bool HasElements2(string[] strings)
         {
-            var b2 = args.Any();
+            return strings.Any();
         }
     }
 }
